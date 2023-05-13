@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    padding-left: 58px;
+    padding-right: 47px;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.title {
+    position: relative;
+    display: inline-block;
+
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+}
+
+.link {
+    color: black;
+}
+
+.dogImage {
+    width: 1051px;
+    height: 762px;
+}
+
+.trivia {
+    font-size: 20px;
+}
+
+.description {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.topDiv {
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.detail {
+   padding: 10px 47px 30px 51px;
+}
+
+.dogImage {
+    display: block;
+    margin-bottom: 20px;
+}
